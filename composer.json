@@ -1,0 +1,21 @@
+{
+    "name": "shovhan1/slim-skeleton",
+    "autoload": {
+        "psr-4": {
+            "Shovhan\\SlimSkeleton\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stas Shovhan",
+            "email": "stas.shovhan@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.15",
+        "symfony/validator": "^8.1",
+        "psr/http-client": "^1.0",
+        "vlucas/phpdotenv": "^5.7",
+        "doctrine/orm": "^3.7"
+    }
+}
